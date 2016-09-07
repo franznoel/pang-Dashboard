@@ -8,6 +8,9 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('dashboard');
+  this.route('group');
+  this.route('members');
+  this.route('tasks');
 });
 
 export default Router;
